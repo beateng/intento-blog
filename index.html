@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+
+<body>
+  <div id="agrupar">
+
+    <header id="cabecera">
+      <h1 class="tilt-prism-1">Curriculum vitae de Carlos Morales</h1>
+    </header>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="#cvv">PRINCIPAL</a></li>
+        <li><a href="#fotos">FOTOS</a></li>
+        <li><a href="#videos">VIDEOS</a></li>
+        <li><a href="#columna">CONTACTO</a></li>
+        <li><a href="#escuela">UNIVERSIDAD</a></li>
+      </ul>
+    </nav>
+
+    <section id="seccion">
+      <article id="cvv"><!--Primer articulo-->
+        <header>
+
+          <hgroup>
+            <h1>Hoja de Vida</h1>
+            <h4>CVV de Carlos Morales</h4>
+          </hgroup>
+
+          <time datetime="2024-03-04" pubdate>
+            publicado 04-03-2024
+          </time>
+        </header>
+        <li><strong>Nombre completo:</strong> Carlos Morales</li>
+        <li><strong>Fecha de nacimiento:</strong> 17 de Julio de 2003</li>
+        <li><strong>Lugar de nacimiento:</strong> Orizaba, Veracruz</li>
+        <br>
+
+        <h2>Educación y formaci&oacute;n</h2>
+
+        <ul style="margin-left: 1em;">
+          <li><strong>2020: </strong>Diplomado en diseño de ondas sonoras.<em>Tecnológico de Monterrey. </em>(Nuevo
+            Le&oacute;n)
+          </li>
+          <li><strong>2022-2023: </strong>Ciclo formativo mastering en vivo con equipo de la marca BOSE. <em>SAE
+              Institute</em>
+            (Ciudad de M&eacute;xico)</li>
+          <li><strong>2024: </strong>Diplomado en s&iacute;ntesis de audio con matem&aacute;ticas aplicadas. <em>Berklee
+              College
+            </em> (Boston)</li>
+        </ul>
+        <br>
+        <video width="100%" controls loop autoplay>
+          <source src="img/pro_vid.mp4" type="video/mp4">
+        </video>
+        <br>
+        <!-- <figure>
+          <img id="imagen" src="img/buho.jpg">
+          <figcaption>
+            Esta es la imagen del primer mensaje
+          </figcaption>
+        </figure> -->
+
+        <footer>
+          <p>comentarios (0)</p>
+          <a href="#cabecera"><i>Principal</i></a>
+        </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article id="escuela"><!-- Segundo articulo-->
+        <header>
+          <hgroup>
+            <h1>Datos de Universidad</h1>
+            <h4>Tecnol&oacute;gico Nacional de M&eacute;xico: Campus Orizaba</h4>
+          </hgroup>
+          <time datetime="2024-03-04" pubdate>
+            publicado 04-03-2024
+          </time>
+        </header>
+        El Tecnol&oacute;gico Nacional de M&eacute;xico: Campus Orizaba ha adquirido un legado prominente a lo largo de
+        los tiempos, debido que la calidad de sus egresados ha permanecido en calidad de "Profesional", es debido a las
+        aptitudes de los ingenieros procedentes de dicha instituci&oacute;n que tienen un estatus alto en el campo
+        laboral.
+        <br><br>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.735049416939!2d-97.10157312532633!3d18.854444982304965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Orizaba!5e0!3m2!1ses-419!2smx!4v1709578228107!5m2!1ses-419!2smx"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <figure>
+          <img id="imagen2" src="img/buho2.jpg">
+          <figcaption>
+            Esta es la imagen del primer mensaje
+            <br>
+          </figcaption>
+        </figure> -->
+        <footer>
+          <p>comentarios (0)</p>
+          <a href="#cabecera"><i>Principal</i></a>
+        </footer>
+
+      </article> <!-- Fin Segundo articulo-->
+
+
+      <article id="fotos"><!-- Tercer articulo-->
+        <header>
+          <hgroup>
+            <h1>Fotos personales</h1>
+            <h4>Ing. en Sistemas Computacionales Carlos Morales</h4>
+          </hgroup>
+          <time datetime="2024-03-04" pubdate>
+            publicado 04-03-2024
+          </time>
+        </header>
+        <img src="img/img-1.jpg" alt="Carlos Morales">
+        <img src="img/img-2.jpg" alt="Carlos Morales">
+        <img src="img/img-3.jpg" alt="Carlos Morales">
+        <img src="img/img-4.jpg" alt="Carlos Morales">
+        <br><br>
+        <footer>
+          <p>comentarios (0)</p>
+          <a href="#cabecera"><i>Principal</i></a>
+        </footer>
+      </article> <!-- Fin Tercer articulo-->
+
+
+      <article id="videos"><!-- Cuarto articulo-->
+        <header>
+          <hgroup>
+            <h1>Videos sobre el &Aacute;rea Profesional</h1>
+            <h4>Ing. en Sistemas Computacionales Carlos Morales</h4>
+          </hgroup>
+          <time datetime="2024-03-04" pubdate>
+            publicado 04-03-2024
+          </time>
+        </header>
+        <video width="100%" controls loop>
+          <source src="img/vid-1.mp4" type="video/mp4">
+        </video>
+        <video width="100%" controls loop>
+          <source src="img/vid-2.mp4" type="video/mp4">
+        </video>
+        <video width="100%" controls loop>
+          <source src="img/vid-3.mp4" type="video/mp4">
+        </video>
+        <br><br>
+        <footer>
+          <p>comentarios (0)</p>
+          <a href="#cabecera"><i>Principal</i></a>
+        </footer>
+      </article> <!-- Fin Cuarto articulo-->
+
+    </section> <!--Fin de section seccion-->
+
+    <aside id="columna"> <!-- aside -->
+      <blockquote>(272) 727-2454</blockquote><br>
+      <blockquote>(272) 139-4564</blockquote><br>
+      <a href="https://www.facebook.com/cristiano">
+        <figure>
+          <!-- <img src="img/facebook.jpg" alt="facebook"> -->
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+            <path
+              d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z">
+            </path>
+          </svg>
+        </figure>
+      </a>
+
+      <a href="https://www.instagram.com/cristiano">
+        <figure>
+          <!-- <img src="img/instagram.jpg" alt="instagram"> -->
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+            <path
+              d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z">
+            </path>
+          </svg>
+        </figure>
+      </a>
+    </aside> <!-- Fin aside -->
+
+    <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+        <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+    </footer>
+
+  </div> <!--fin div agrupar-->
+
+</body>
+
+</html>
