@@ -42,6 +42,8 @@ color: white;
 #menu {
 background: #000000;
 padding: 5px 15px;
+border-radius: 1em;
+border: 3px solid #999999;
 }
 #menu li {
 display: inline-block;
@@ -74,6 +76,8 @@ height: 228em;
 margin: 20px 0px;
 padding: 20px;
 background: #ffffff;
+border-radius: 1em;
+text-align: center;
 }
 /*Footer*/
 #pie {
@@ -98,8 +102,9 @@ border-top: 2px solid #999999;
 article {
 background: #ffffff;
 border: 1px solid #999999;
-padding: 20px;
+padding: 2em;
 margin-bottom: 15px;
+border-radius: 1em;
 }
 
 article footer {
